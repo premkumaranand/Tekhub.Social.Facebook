@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekhub.Identity.Social.Facebook", "Tekhub.Identity.Social.Facebook\Tekhub.Identity.Social.Facebook.csproj", "{48AA3396-DF64-4496-86FC-B5D1801A6EEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekhub.Identity.Social.Facebook.Common", "Tekhub.Identity.Social.facebook.Common\Tekhub.Identity.Social.Facebook.Common.csproj", "{B4CB0238-C345-45E8-95CF-758795D56E4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekhub.Social.Facebook.Common", "Tekhub.Social.Facebook.Common\Tekhub.Social.Facebook.Common.csproj", "{7E33113F-D65D-4736-BD99-74364A6B0771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekhub.Social.Facebook.Repository.Common", "Tekhub.Social.Facebook.Repository.Common\Tekhub.Social.Facebook.Repository.Common.csproj", "{23662B2A-2BDB-4041-A565-03AF56608C74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{12A02493-263D-4A62-A367-F51C095E3416}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekhub.Social.Facebook.Factory", "Tekhub.Social.Facebook.Factory\Tekhub.Social.Facebook.Factory.csproj", "{15D8595D-4A84-4D3A-9796-433CD447AB4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekhub.Social.Facebook.Repository", "Tekhub.Social.Facebook.Repository\Tekhub.Social.Facebook.Repository.csproj", "{560C75B4-7129-4AD5-B037-2AD0D3E250B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekhub.Identity.Social.Facebook.Umbraco", "Tekhub.Identity.Social.Facebook.Umbraco\Tekhub.Identity.Social.Facebook.Umbraco.csproj", "{F7BE5058-4421-45B1-96EE-E60EDF06CF26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48AA3396-DF64-4496-86FC-B5D1801A6EEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48AA3396-DF64-4496-86FC-B5D1801A6EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48AA3396-DF64-4496-86FC-B5D1801A6EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48AA3396-DF64-4496-86FC-B5D1801A6EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4CB0238-C345-45E8-95CF-758795D56E4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4CB0238-C345-45E8-95CF-758795D56E4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4CB0238-C345-45E8-95CF-758795D56E4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4CB0238-C345-45E8-95CF-758795D56E4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E33113F-D65D-4736-BD99-74364A6B0771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E33113F-D65D-4736-BD99-74364A6B0771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E33113F-D65D-4736-BD99-74364A6B0771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E33113F-D65D-4736-BD99-74364A6B0771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23662B2A-2BDB-4041-A565-03AF56608C74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23662B2A-2BDB-4041-A565-03AF56608C74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23662B2A-2BDB-4041-A565-03AF56608C74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23662B2A-2BDB-4041-A565-03AF56608C74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15D8595D-4A84-4D3A-9796-433CD447AB4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15D8595D-4A84-4D3A-9796-433CD447AB4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15D8595D-4A84-4D3A-9796-433CD447AB4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15D8595D-4A84-4D3A-9796-433CD447AB4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{560C75B4-7129-4AD5-B037-2AD0D3E250B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{560C75B4-7129-4AD5-B037-2AD0D3E250B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{560C75B4-7129-4AD5-B037-2AD0D3E250B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{560C75B4-7129-4AD5-B037-2AD0D3E250B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7BE5058-4421-45B1-96EE-E60EDF06CF26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7BE5058-4421-45B1-96EE-E60EDF06CF26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7BE5058-4421-45B1-96EE-E60EDF06CF26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7BE5058-4421-45B1-96EE-E60EDF06CF26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
